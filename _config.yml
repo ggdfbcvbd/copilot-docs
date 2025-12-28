@@ -1,0 +1,25 @@
+title: GitHub Copilot Documentation
+description: Complete documentation site for GitHub Copilot
+url: "https://ggdfbcvbd.github.io
+baseurl: "/copilot-docs"
+theme: null
+plugins: []
+
+# Build settings
+markdown: kramdown
+include: ['.nojekyll']
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - node_modules
+
+# Site configuration
+lang: en
+author: ggdfbcvbd
+email: support@ggdfbcvbd.com
+repository: ggdfbcvbd/copilot-docs
+
+# Performance
+incremental: true
+limit_posts: 10
