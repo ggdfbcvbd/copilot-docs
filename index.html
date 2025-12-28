@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Copilot Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="octicon" viewBox="0 0 16 16" version="1.1" width="32" height="32" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-item active">Docs</a>
+                    <a href="#guides" class="nav-item">Guides</a>
+                    <a href="#concepts" class="nav-item">Concepts</a>
+                    <a href="#tutorials" class="nav-item">Tutorials</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-search">
+                    <input type="text" id="search" placeholder="Search documentation..." class="search-input">
+                </div>
+                <nav class="sidebar-nav" id="sidebar-nav">
+                    <h3>Getting Started</h3>
+                    <ul>
+                        <li><a href="#getting-started" class="nav-link">Quick Start</a></li>
+                        <li><a href="#installation" class="nav-link">Installation</a></li>
+                        <li><a href="#first-steps" class="nav-link">First Steps</a></li>
+                    </ul>
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#code-completion" class="nav-link">Code Completion</a></li>
+                        <li><a href="#copilot-chat" class="nav-link">Copilot Chat</a></li>
+                        <li><a href="#code-review" class="nav-link">Code Review</a></li>
+                    </ul>
+                    <h3>Advanced</h3>
+                    <ul>
+                        <li><a href="#cli" class="nav-link">Copilot CLI</a></li>
+                        <li><a href="#api" class="nav-link">API Integration</a></li>
+                        <li><a href="#customization" class="nav-link">Customization</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="content" id="main-content">
+                <section id="home" class="section active">
+                    <h1>GitHub Copilot Documentation</h1>
+                    <p class="intro-text">Your AI pair programmer to help you write code faster and with less effort.</p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h3>Code Completion</h3>
+                            <p>Get intelligent code suggestions as you type, powered by AI.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Copilot Chat</h3>
+                            <p>Ask questions and get explanations about your code in natural language.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Code Review</h3>
+                            <p>Automatically review pull requests and suggest improvements.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="getting-started" class="section">
+                    <h2>Getting Started with GitHub Copilot</h2>
+                    <p>Learn how to install and start using GitHub Copilot in your favorite editor.</p>
+                    
+                    <h3>Installation</h3>
+                    <p>GitHub Copilot is available for:</p>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>Visual Studio</li>
+                        <li>JetBrains IDEs</li>
+                        <li>Vim/Neovim</li>
+                        <li>GitHub.com</li>
+                    </ul>
+                    
+                    <h3>First Steps</h3>
+                    <ol>
+                        <li>Install the Copilot extension in your editor</li>
+                        <li>Sign in with your GitHub account</li>
+                        <li>Accept the permission request</li>
+                        <li>Start typing code and get AI-powered suggestions</li>
+                    </ol>
+                </section>
+
+                <section id="copilot-chat" class="section">
+                    <h2>Copilot Chat</h2>
+                    <p>Chat with Copilot to get explanations, generate code, and more.</p>
+                    
+                    <h3>Chat Commands</h3>
+                    <p>Use these commands to interact with Copilot Chat:</p>
+                    <ul>
+                        <li><code>/explain</code> - Explain selected code</li>
+                        <li><code>/test</code> - Generate unit tests</li>
+                        <li><code>/doc</code> - Generate documentation</li>
+                        <li><code>/fix</code> - Fix issues in code</li>
+                    </ul>
+                </section>
+
+                <section id="best-practices" class="section">
+                    <h2>Best Practices</h2>
+                    <ul>
+                        <li><strong>Write clear comments:</strong> Help Copilot understand your intent</li>
+                        <li><strong>Use type hints:</strong> Provide context about data types</li>
+                        <li><strong>Review suggestions:</strong> Always check generated code</li>
+                        <li><strong>Iterate:</strong> Refine suggestions through conversation</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
