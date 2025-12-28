@@ -1,0 +1,28 @@
+{
+  "name": "copilot-docs",
+  "version": "1.0.0",
+  "description": "GitHub Copilot Documentation - Complete copy of the official GitHub Copilot documentation with all guides, tutorials, and references",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggdfbcvbd/copilot-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ggdfbcvbd/copilot-docs/issues"
+  },
+  "homepage": "https://github.com/ggdfbcvbd/copilot-docs#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
